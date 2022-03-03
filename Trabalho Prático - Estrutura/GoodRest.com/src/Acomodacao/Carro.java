@@ -1,6 +1,7 @@
 package Acomodacao;
 
 public class Carro {
+// Atributos
 	
 	private String modelo;
 	private double valorDiariaCarro; 
