@@ -1,18 +1,20 @@
 package Dado;
 import java.util.Date;
+import java.util.Scanner;
 import Validacao.ValidacaoCpf;
 
 public class Cliente {
 	
+	
 // Atributos
 	private String nomeCliente;
 	private int rg;
-	private int cpf;
+	private String cpf;
 	private Date dataNascimento;
 	
 // Criando Constructor
 	
-	public Cliente(String nomeCliente, int rg, int cpf, Date dataNascimento) {
+	public Cliente(String nomeCliente, int rg, String cpf, Date dataNascimento) {
 		super();
 		this.nomeCliente = nomeCliente;
 		this.rg = rg;
@@ -33,18 +35,16 @@ public class Cliente {
 	public void setRg(int rg) {
 		this.rg = rg;
 	}
-	public int getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
-	public void setCpf(int cpf) {
-		this.cpf = cpf;
-	}
-	public Date getDataNascimento() {
-		return dataNascimento;
+	public void setCpf(String cpf) {
+		this.cpf = cpf;		
 	}
 	public void setDataNascimento(Date dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-	
-	
-}
+
+  }
+
+
