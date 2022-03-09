@@ -8,5 +8,5 @@ import javax.swing.event.*;
 
 
 public class MenuRestrito {
-
+// menu que precisa de senha que somente funcionarios do aplicativo podem usar para fazer as modificações em acomodação 
 }

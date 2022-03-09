@@ -9,7 +9,8 @@ import javax.swing.event.*;
 
 
 public class MenuInicial {
-
+// menu principal e local de teste das funcionalidades enquanto projeto esta sendo implementado;
+	
 // testando Validador de cpf 
 		 public static void main(String[] args) {
 		 String cpf;
