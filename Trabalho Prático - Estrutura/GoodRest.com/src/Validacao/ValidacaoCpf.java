@@ -1,5 +1,6 @@
 package Validacao;
 import java.util.InputMismatchException;
+import java.util.Scanner;
 
 
 public class ValidacaoCpf {
@@ -75,5 +76,19 @@ public class ValidacaoCpf {
 	            return(cpf.substring(0, 3) + "." + cpf.substring(3, 6) + "." +
 	            cpf.substring(6, 9) + "-" + cpf.substring(9, 11));
 	}
-	
-}
+	        
+	        public static void main(String[] args) {
+				String cpf;
+		        Scanner ler = new Scanner(System.in);
+		        System.out.printf("Por favor Insira o CPF: ");
+		        cpf = ler.next();
+
+		        if (ValidacaoCpf.validaCpf(cpf) == true) {
+		        System.out.printf("%s\n", ValidacaoCpf.imprimeCPF(cpf));
+		        System.out.printf("\nCPF válido: ");
+		        }
+		        else System.out.printf("CPF inválido! Por favor verifique o CPF informado.\n");
+		        }
+	}
+
+
