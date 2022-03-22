@@ -65,7 +65,7 @@ public class ValidacaoCartao {
 		Scanner tcd = new Scanner(System.in);
 		String bandeiraCartao = "";
 		
-		System.out.println("Informe o número do cartão");
+		System.out.println("Informe o número do cartão:");
 		String numeroCartao = tcd.next();
 		
 		if( numeroCartao.length() >= 13 && numeroCartao.length() <= 16  ) {

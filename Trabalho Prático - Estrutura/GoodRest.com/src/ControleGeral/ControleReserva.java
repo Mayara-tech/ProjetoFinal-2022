@@ -3,6 +3,9 @@ import Dado.*;
 import Acomodacao.*;
 
 public class ControleReserva {
-// local para armazenar os dados da reserva
+// Criando Cadastrar Reserva
+	public void cadastrarReserva ( ) {
+		Reserva[] reserva = new Reserva [1000];
+	}
 	
 }
