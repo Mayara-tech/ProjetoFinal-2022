@@ -5,5 +5,7 @@ import javax.swing.*;
 import javax.swing.event.*;
 
 public class InterfaceGrafica {
-// interface grafica 
+//---------------------------  Interface Gráfica Menu Principal ------------------------------------
+	
+	
 }

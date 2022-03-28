@@ -79,4 +79,18 @@ public class Chacara extends Acomodacao {
 	public void setAdicionais(String adicionais) {
 		this.adicionais = adicionais;
 	} 
+	public void statusChacaras() {
+		System.out.println("*********************************************************************************");
+		System.out.println("Tipo de acomodação: " + this.getTipo());
+		System.out.println("Nome: " + this.getNomeAcomodacao());
+		System.out.println("Valor diária: "+ "R$" + this.getValorDiariaAcomodacao() );
+		System.out.println("Numero de quartos " + this.getNumeroQuartos());
+		System.out.println("Numero de banheiros: " + this.getNumeroBanheiros());
+		System.out.println("Possui cozinha: " + this.isCozinha());
+		System.out.println("Possui sala de estar: " + this.isSaladeEstar());
+		System.out.println("Possui piscina no prédio: " + this.isPiscina());
+		System.out.println("Quantidade máxima de pessoas: " + this.getQuantidadeMaxima());
+		System.out.println("Atividades de lazer: " + this.getAtividadeLazer());
+		System.out.println("Descrição: " + this.getAdicionais()+"\n");
+	}
 }

@@ -6,11 +6,11 @@ public class Carro {
 	private String modelo;
 	private double valorDiariaCarro; 
 	private boolean seguro; 
-	private boolean tipo;
+	private String tipo;
 
 // Criando Constructor
 
-	public Carro(String modelo, double valorDiariaCarro, boolean seguro, boolean tipo) {
+	public Carro(String modelo, double valorDiariaCarro, boolean seguro, String tipo) {
 		super();
 		this.modelo = modelo;
 		this.valorDiariaCarro = valorDiariaCarro;
@@ -38,12 +38,19 @@ public class Carro {
 	public void setSeguro(boolean seguro) {
 		this.seguro = seguro;
 	}
-	public boolean isTipo() {
+	public String getTipo() {
 		return tipo;
 	}
-	public void setTipo(boolean tipo) {
+
+	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	
-	
+	public void statusCarros() {
+		System.out.println("*********************************************************************************");
+		System.out.println("Modelo:" + this.getModelo());
+		System.out.println("Valor diária: "+ "R$" + this.getValorDiariaCarro() );
+		System.out.println("Seguro de roubo e acidente: " + this.isSeguro());
+		System.out.println("Tipo:" + this.getTipo());
+	}
 }
+	

@@ -104,4 +104,21 @@ public class Apartamento extends Acomodacao {
 	public void setAdicionais(String adicionais) {
 		this.adicionais = adicionais;
 	}
+		public void statusApartamentos() {
+			System.out.println("*********************************************************************************");
+			System.out.println("Tipo de acomodação: " + this.getTipo());
+			System.out.println("Nome: " + this.getNomeAcomodacao());
+			System.out.println("Valor diária: "+ "R$" + this.getValorDiariaAcomodacao() );
+			System.out.println("Numero de quartos " + this.getNumeroQuartos());
+			System.out.println("Numero de banheiros: " + this.getNumeroBanheiros());
+			System.out.println("Possui cozinha: " + this.isCozinha());
+			System.out.println("Possui sala de estar: " + this.isSaladeEstar());
+			System.out.println("Possui piscina no prédio: " + this.isPiscina());
+			System.out.println("Aceita entrada de Pets: " + this.isPets());
+			System.out.println("Possui serviço de quarto: " + this.isServicoQuarto());
+			System.out.println("Possui ar condicionado: " + this.isArCondicionado());
+			System.out.println("Apartamento " + this.getEstrelas() + " estrelas");
+			System.out.println("Apartamento localizado no " + this.getAndar() +"º andar");
+			System.out.println("Descrição: " + this.getAdicionais()+"\n");
+	}
 }

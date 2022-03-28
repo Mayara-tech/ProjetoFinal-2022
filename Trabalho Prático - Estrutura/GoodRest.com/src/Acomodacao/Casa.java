@@ -71,4 +71,17 @@ public class Casa extends Acomodacao {
 	public void setAdicionais(String adicionais) {
 		this.adicionais = adicionais;
 	}
+	public void statusCasas() {
+		System.out.println("*********************************************************************************");
+		System.out.println("Tipo de acomodação: " + this.getTipo());
+		System.out.println("Nome: " + this.getNomeAcomodacao());
+		System.out.println("Valor diária: "+ "R$" + this.getValorDiariaAcomodacao() );
+		System.out.println("Numero de quartos " + this.getNumeroQuartos());
+		System.out.println("Numero de banheiros: " + this.getNumeroBanheiros());
+		System.out.println("Possui cozinha: " + this.isCozinha());
+		System.out.println("Possui sala de estar: " + this.isSaladeEstar());
+		System.out.println("Possui piscina no prédio: " + this.isPiscina());
+		System.out.println("Aceita entrada de Pets: " + this.isPets());
+		System.out.println("Descrição: " + this.getAdicionais()+"\n");
+	}
 }

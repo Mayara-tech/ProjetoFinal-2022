@@ -77,18 +77,18 @@ public class ValidacaoCpf {
 	            cpf.substring(6, 9) + "-" + cpf.substring(9, 11));
 	}
 	        
-	        public static void main(String[] args) {
+/*	        public static void main(String[] args) {
 				String cpf;
 		        Scanner ler = new Scanner(System.in);
 		        System.out.printf("Por favor Insira o CPF: ");
 		        cpf = ler.next();
 
 		        if (ValidacaoCpf.validaCpf(cpf) == true) {
-		        System.out.printf("%s\n", ValidacaoCpf.imprimeCPF(cpf));
 		        System.out.printf("\nCPF válido: ");
+		        System.out.printf("%s\n", ValidacaoCpf.imprimeCPF(cpf));
 		        }
 		        else System.out.printf("CPF inválido! Por favor verifique o CPF informado.\n");
-		        }
+		        }*/
 	}
 
 

@@ -60,7 +60,7 @@ public class ValidacaoCartao {
 			return "Bandeira não identificada";
 		}
 	}
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		
 		Scanner tcd = new Scanner(System.in);
 		String bandeiraCartao = "";
@@ -85,5 +85,5 @@ public class ValidacaoCartao {
 			System.out.println("Número de cartão inválido");
 		} 
 		
-	}
+	}*/
 }
