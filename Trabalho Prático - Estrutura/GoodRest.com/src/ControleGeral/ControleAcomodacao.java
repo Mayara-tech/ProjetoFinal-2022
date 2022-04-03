@@ -1,5 +1,6 @@
 package ControleGeral;
 import Acomodacao.*;
+import Dado.*;
 
 
 public class ControleAcomodacao {
@@ -116,6 +117,6 @@ public class ControleAcomodacao {
 		carro[2] = new Carro( "Renault Kwid",89.99,true,"Econômico");
 		carro[3] = new Carro("Hb20x",115.99,true,"Compacto");
 		carro[4] = new Carro("Corolla",459.99,true,"Esportivo");
-	}
 	
+}
 }

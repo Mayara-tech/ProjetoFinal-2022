@@ -8,12 +8,8 @@ public class ValidacaoRestrita {
 	public static boolean loginFuncionario(String login) {
         Scanner in = new Scanner(System.in);
 // 1) Informe o seu login
-        
-        System.out.println("login> ");
         String login1 = in.nextLine();
 // 2) Informe a sua senha
-        
-        System.out.println("senha> ");
         String senha = in.nextLine();
         
 // 3) Armazenar em variaveis o login e a senha
@@ -27,8 +23,5 @@ public class ValidacaoRestrita {
         }
 		return false;
     }
-/*	public static void main(String[] args) {
-		boolean flag = loginFuncionario (null);
-	}*/
 
 }
